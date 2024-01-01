@@ -1,0 +1,79 @@
+/* General styles */
+body {
+    background-color: #E0F0EF;
+}
+
+/* Section styles */
+.services {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    padding: 20px;
+    align-content: flex-start;
+    justify-items: center;
+    flex: row;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+
+.service {
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex; /* Use flexbox */
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between; 
+    transition: transform 0.3s ease-in-out;
+    width: 888px;
+}
+
+.serviceContent {
+    flex: 1; 
+    margin-left: 20px; 
+    width: 300px !important;
+
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+/* Title styles */
+.servicesTitle,
+.servicesTitleLeft {
+    font-size: 24px;
+    color: #3498db; /* A modern blue color */
+    margin-bottom: 10px;
+}
+
+/* Description styles */
+.servicesDescription,
+.servicesDescriptionLeft {
+    font-size: 16px;
+    color: #555; /* Slightly lighter text color */
+    line-height: 1.5;
+}
+
+/* Image styles */
+.first {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.first:hover {
+    transform: scale(1.1);
+}

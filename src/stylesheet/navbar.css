@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'EVA-Matisse_Standard' ;
+    src: url(../font/EVA-Matisse_Classic.ttf);
+}
+
+.header {
+    background-color: rgb(247, 142, 142);
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    top: 0;
+    box-sizing: border-box;
+    transition: background-color 0.5s;
+}
+
+.navbar_wrap {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-right: 18px;
+}
+
+.navbar_logo {
+    height: 60px;
+}
+
+.navbar_link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 18px;
+}
+
+.navbar_link a {
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Add a box around the "Profile" button */
+
+/*
+.navbar_link a[href="../userpage.php"] {
+    border: 2px solid #ffffff; 
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+*/
+
+/* Add a box around the "Login" button */
+
+/*
+.navbar_link a[href="../login.php"] {
+    border: 2px solid #ffffff; 
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+*/
+
+.navbar_link a:hover {
+    color: #0f0d0d; 
+    border-color: #f40e0e; 
+}
+
+
+/* css for footer
+.ResumeRensselaerFooter {
+    background-color: #D4E5EF;
+    color: gray;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.footer-link a {
+    color: gray;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-descrip p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+*/

@@ -1,0 +1,78 @@
+body, h1, h2, h3, p, img {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 17px;
+    margin-top: 45px;
+    text-align: center;
+    width: 45%;
+}
+
+
+#RESUME_BODY {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    margin-bottom: 36px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.vcard {
+    text-align: center;
+    margin: 18px 18px 18px 18px;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    margin-top: 0;
+}
+
+.content_title {
+    font-style: italic;
+    font-size: .85em;
+    margin-top: 3px;
+    text-align: left;
+}
+
+.section {
+    margin: 18px;
+}
+
+.city, .region, .postal-code, .country-name {
+    display: inline;
+    
+}
+
+.RESUME_section_title {
+    font-size: 1.5em;
+    border-bottom: 2px dotted black;
+}
+
+.RESUME_NAME {
+    font-size: 1.7em;
+}
+
+.content_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.objective_statement {
+    text-indent: .9em;
+    margin-bottom: -5px;
+}
+
+#edu {
+    margin-top: 25px;
+}
+
+.bringup {
+    margin-top: -15px;
+}

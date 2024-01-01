@@ -1,0 +1,123 @@
+{
+    "name": "Xin Chao Chen",
+    "address": {
+      "city": "Troy",
+      "region": "New York",
+      "postalCode": "12180",
+      "country": "USA"
+    },
+    "contact": {
+      "workPhone": "+1-888-888-8888",
+      "email": "chenx32@rpi.edu"
+    },
+    "profilePicture": "../profile_pictures/xinchaochen.jpeg",
+    "objective": "As a passionate and results-driven computer science and web science major, I am dedicated to crafting intuitive and efficient digital experiences through my strong programming and problem-solving abilities. I am determined to utilize my skills to contribute to innovative projects and consistently deliver exceptional results.",
+    "education": [
+      {
+        "school": "Rensselaer Polytechnic Institute",
+        "date": "Expected 2026",
+        "location": "Troy, New York",
+        "degree": "Bachelor of Science in Computer Science and Information Technology & Web Science",
+        "gpa": "3.74/4.0",
+        "honors": "Dean's Honor List (2022 - 2023)"
+      },
+      {
+        "school": "Fort Hamilton High Schools",
+        "date": "Graduated 2022",
+        "location": "Brooklyn, New York",
+        "details": [
+          "GPA: 100.16%",
+          "Scholarships for Academic Excellence"
+        ]
+      }
+    ],
+    "workExperience": [
+      {
+        "employer": "HeartShare St. Vincent's Services",
+        "date": "July-August 2023",
+        "position": "Camp Program Facilitator",
+        "responsibilities": [
+          "Assumed leadership role, overseeing and supporting the camp program's operations",
+          "Actively participated in the organization and facilitation of special events"
+        ]
+      },
+      {
+        "employer": "NYPOPO INC",
+        "date": "June-July 2023",
+        "position": "Operations Coordinator and Customer Service",
+        "responsibilities": [
+          "Efficiently managed packaging tasks, ensuring products were prepared for shipment",
+          "Played a crucial role in order management, including online order processing",
+          "Provided excellent customer service by promptly addressing inquiries"
+        ]
+      },
+      {
+        "employer": "Brooklyn Elite Center",
+        "date": "July 2021-August 2022",
+        "position": "Teacher Assistant",
+        "responsibilities": [
+          "Contributed to the cognitive and social development of young children",
+          "Fostered a positive and cheerful atmosphere that enhanced learning experience for students"
+        ]
+      }
+    ],
+    "skills": [
+        {
+          "name": "Programming Languages",
+          "skills": [
+            "Python (Intermediate)",
+            "C++ (Advanced)",
+            "C (Intermediate)"
+          ]
+        },
+        {
+          "name": "Web Development",
+          "skills": [
+            "HTML/CSS (Intermediate)"
+          ]
+        },
+        {
+          "name": "Tools",
+          "skills": [
+            "Git/GitHub (Intermediate)",
+            "Visual Studio Code (Advanced)",
+            "Microsoft Azure (Intermediate)"
+          ]
+        },
+        {
+          "name": "Soft Skills",
+          "skills": [
+            "Communication",
+            "Problem-solving",
+            "Teamwork",
+            "Adaptability"
+          ]
+        },
+        {
+          "name": "Foreign Languages",
+          "skills": [
+            "Chinese Mandarin (Fluent)"
+          ]
+        }
+    ],
+    "relevantCoursework": [
+        "Data Structures",
+        "Computer Science I",
+        "Calculus I & II",
+        "Writing in Context",
+        "Principles of Economics",
+        "Computer Organization (In Progress)",
+        "Foundation of Computer Science (In progress)"
+    ],
+    "activities": [
+      {
+        "organization": "Chinese Students and Scholars Association CSSA",
+        "date": "September 2022 - Present",
+        "position": "Event Management",
+        "responsibilities": [
+          "Collaborated with vendors, sponsors, and event participants to ensure seamless communication",
+          "Developed and managed event budgets, ensuring cost-effective solutions while maintaining quality"
+        ]
+      }
+    ]
+}  

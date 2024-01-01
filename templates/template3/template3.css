@@ -1,0 +1,164 @@
+body, h1, h2, h3, p, img {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 18px;
+    width: 45%;
+}
+
+header {
+    text-align: center;
+    font-size: 5px;
+}
+
+.individual_page {
+    background-color: white;
+    font-family: 'Times New Roman';
+}
+
+#address {
+    border-top: 2px solid #333;
+}
+
+#contact {
+    border-bottom: 2px solid #333;
+    margin-top: -7px;
+}
+
+.personalinfo li{
+    display: inline;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+#name {
+  clear: both;
+  text-align: left;
+  font-size: 35px;
+}
+
+#negativeleft1 {
+    margin-left: -14px;
+    font-size: 25px;
+}
+
+#negativeleft2 {
+    margin-left: -5px;
+    font-size: 25px;
+}
+
+.sectionheader {
+    clear: both;
+    float: left;
+    margin-top: -35px;
+    font-weight: bold;
+    font-size: 22px;
+} 
+
+.objective {
+    clear: both;
+    margin-top: 50px;
+}
+
+#obj {
+    float: left;
+    clear: both;
+    margin-top: -5px;
+}
+
+.lowersection {
+    clear: left;
+    float: left;
+    margin-top: 45px;
+}
+
+#education {
+    float: left;
+    margin-top: 10px;
+}
+
+.schoolname {
+    clear: left;
+    float: left;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.schooldates {
+    clear: right;
+    float: left;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#dates {
+    margin-left: 5px;
+}
+
+#hsdates {
+    margin-left: 5px;
+}
+
+#major {
+    clear: both;
+    float: left;
+    margin-top: 8px;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.accomplishments {
+    clear: both;
+    float: left;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.exp {
+    float: left;
+    margin-top: 45px;
+    width: 55%;
+}
+
+.workplace {
+    clear: both;
+    float: left;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 20px;
+} 
+
+.detailslist {
+    clear: both;
+    float: left;
+    margin-bottom: 5px;
+    margin-top: -5px;
+    font-size: 15px;
+}
+
+#columnleft {
+    clear: left;
+    float: left;
+    margin-top: 0px;
+}
+
+#columnright {
+    float: left;
+    margin-left: 70px;
+    margin-top: 0px;
+} 

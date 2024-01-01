@@ -1,0 +1,211 @@
+body, h1, h2, h3, p, img {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightblue;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    width: 45%;
+}
+
+.resume_information {
+    background-color: rgb(255, 255, 255);
+}
+
+#top {
+    float: left;
+    clear: both;
+    width: 60%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.h-card_information {
+    display: inline;
+    align-items: center;
+    text-align: center;
+    margin: 0%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.my_information {
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.p-street-address, .p-locality, .p-region, .p-postal-code, .p-tel, .u-email {
+    text-align: center;
+    list-style-type: none;
+    margin-left: 0;
+    clear: both;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#phone {
+    clear: both;
+}
+
+#p-name {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 38px;
+    padding-bottom: 0.5%;
+    padding-top: 0.5% ;
+    font-family: "Calibri", sans-serif;
+}
+
+#intro_title {
+    text-align: left;
+    font-size: 2em;
+    margin-top: 1.5%;
+    font-family: "Calibri", sans-serif;
+    clear: both;
+}
+
+.my_info {
+    text-align: left;
+    list-style-type: none;
+    margin-right: 5%;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.education_header {
+    font-size: 2em;
+    text-align: left;
+    font-family: "Calibri", sans-serif;
+    clear: both;
+}
+
+#relevant_coursework {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#activities_accomplishments {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#hs_activities {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#hs_accomplishments {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.college_name {
+    font-size: 1.2em;
+}
+
+#major {
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#edates {
+    color:rgb(12, 76, 154);
+    font-weight: 600;
+}
+
+#hsedates {
+    color:rgb(12, 76, 154);
+    font-weight: 600;
+}
+
+#job1dates {
+    color:rgb(12, 76, 154);
+    font-weight: 600;
+}
+
+#job2dates {
+    color:rgb(12, 76, 154);
+    font-weight: 600;
+}
+
+#job3dates {
+    color:rgb(12, 76, 154);
+    font-weight: 600;
+}
+
+#highschool_degree {
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.highschool_name {
+    font-size: 1.2em;
+}
+
+#job1title {
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 0%;
+    color:  rgb(46, 43, 45);
+    font-weight: 400;
+}
+
+.job_description_1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.job_description_2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.job_description_3 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#job2title {
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#job3title {
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.workexperience_header {
+    font-size: 2em;
+    text-align: left;
+    font-family: "Calibri", sans-serif;
+}
+
+.experience_1_name {
+    font-size: 1.2em;
+}
+
+.experience_2_name {
+    font-size: 1.2em;
+}
+
+.experience_3_name {
+    font-size: 1.2em;
+}
+
+.skillset_header {
+    font-size: 2em;
+    text-align: left;
+    font-family: "Calibri", sans-serif;
+}
+
+.skill_description {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bringup {
+    margin-top: -10px;
+}

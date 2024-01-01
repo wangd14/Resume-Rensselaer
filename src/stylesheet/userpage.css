@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'EVA-Matisse_Standard' ;
+    src: url(../font/EVA-Matisse_Classic.ttf);
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    font-family: 'EVA-Matisse_Standard'; /* Make sure the font name is correct */
+    height: fit-content;
+}
+
+.user-page-content {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 90px;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    padding: 0px;
+}
+
+
+.user-image {
+    width: 150px;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 50%; /* Make the image a circle */
+}
+
+.user-image {
+    text-align: center;
+}
+
+.user-actions {
+    background-color: #D4E5EF;
+    margin-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 350px;
+    text-align: left;
+    height: 95vh;
+}
+
+
+.actions li {
+    list-style: none;
+    padding-top: 36px;
+}
+
+.actions button {
+    text-decoration: none;
+    font-size: 2em;
+    color: #43465F;
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Show pointer cursor on hover */
+    border-radius: 5px; /* Add rounded corners */
+    font-family: 'EVA-Matisse_Standard'; /* Make sure the font name is correct */
+    background-color: #D4E5EF;
+    text-align: left;
+}
+
+.actions button:hover {
+    color: rgb(115, 218, 255, 232, 249);
+}
+
+.profile, .account_setting {
+    width: 100%;
+    background-color: #c3A6CB;
+    padding-left: 88px
+}
+
+.profile h1, .account_setting h1 {
+    font-size: 3em;
+    color: #43465F;
+}
+
+#account-settings-form input, #account-settings-form label{
+    display: block;
+    margin-bottom: 18px;
+    font-size: 18px; 
+}
+
+.reglink {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+

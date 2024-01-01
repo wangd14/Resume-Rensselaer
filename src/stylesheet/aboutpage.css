@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'EVA-Matisse_Standard' ;
+    src: url(../font/EVA-Matisse_Classic.ttf);
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+}
+
+.about {
+    background-color: #E0F0EF;
+    color: #333;
+    padding: 40px;
+    font-family: 'EVA-Matisse_Standard';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about_title {
+    flex: 0 0 calc(33.33% - 20px); 
+    text-align: left; 
+    font-size: 36px; 
+    color: #e74c3c; 
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500px;
+}
+.about_intro {
+    text-align: left; 
+    font-size: 20px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Calibri", sans-serif;
+
+}
+
+
+.carousel {
+    margin-top: 50px;
+    max-width: 80%;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+  }
+.carousel-control.left, .carousel-control.right{
+    background-image:none !important;
+    filter:none !important;
+ }
+
+ol li{
+    background-image:none !important;
+    filter:none !important;
+    color:#a6aaab;
+}
+
+.item{
+    height:100%;
+    background-color: lightgray;
+}
+
+.carousel-inner{
+    height:100%;
+}
+ 
+
+.about_headers{
+    /*To center the grid itself*/
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-auto-columns: 1fr;
+    grid-template-columns: repeat(auto-fill, 200px);
+    max-width: 70%;
+    column-gap: 200px;
+    row-gap: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_group{
+    width: 350px;
+    padding: 10px;
+    transition-duration: 1s;
+    border-radius: 20px;
+}
+
+.item{
+    position: absolute !important; /* Bootstrap is insistent */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.item img{
+    height: 100%; /* Bootstrap handles width already */
+    object-fit: cover; /* or 'contain' if you want stretch instead of crop */
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    filter: brightness(65%);
+}
+
+.carousel-caption{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.about_subheader {
+    flex: 0 0 33.33%; 
+    color: #e74c3c; 
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.about_description{
+    border-radius: 8px; /* Rounded corners */
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul p {
+    flex: 0 0 calc(33.33% - 20px); 
+    text-align: left; 
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px;
+    text-align: center;
+    font-family: "Calibri", sans-serif;
+    color: #4a4949;
+    font-weight:700;
+}
+
+/* Hover effect for interactive subheaders */
+.about_subheader:hover {
+    background-color: #a6aaab; 
+    transform: scale(1.05); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+

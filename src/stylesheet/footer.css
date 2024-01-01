@@ -1,0 +1,34 @@
+.ResumeRensselaerFooter {
+    background-color: #D4E5EF;
+    color: gray;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.footer-link a {
+    color: gray;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-descrip p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-icon img {
+    width: 30px; 
+    height: 30px; 
+    margin: 0 10px; 
+}
